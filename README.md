@@ -5,10 +5,8 @@ This mod is a smaller version of a larger private mod that is for the main game 
 Note: Some weapon sound files are currently unused until the code for these are currently updated to correctly reference them instead of reusing sounds from other weapons.
 
 ## Installation
-Download the repo [here](https://github.com/TheoDrHashiriya/hdest-hltws-bryan/archive/refs/heads/main.zip).
-
-## Load Order
-Load hdest-hltws-bryan.zip after hdest-weapons.zip.
+1. Download the repo [here](https://github.com/TheoDrHashiriya/hdest-hltws-bryan/archive/refs/heads/main.zip).
+2. Load hdest-hltws-bryan.zip after hdest-weapons.zip.
 
 ## Credits
 mc776\
