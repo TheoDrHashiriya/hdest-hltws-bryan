@@ -6,7 +6,7 @@ Note: Some weapon sound files are currently unused until the code for these are 
 
 ## Installation
 1. Download the repo [here](https://github.com/TheoDrHashiriya/hdest-hltws-bryan/archive/refs/heads/main.zip).
-2. Load hdest-hltws-bryan.zip after hdest-weapons.zip.
+2. Load hdest-hltws-bryan-main.zip after hdest-weapons-main.zip.
 
 ## Credits
 mc776\
