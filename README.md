@@ -8,6 +8,9 @@ Note: Some weapon sound files are currently unused until the code for these are 
 1. Download the repo [here](https://github.com/TheoDrHashiriya/hdest-hltws-bryan/archive/refs/heads/main.zip).
 2. Load hdest-hltws-bryan-main.zip after hdest-weapons-main.zip.
 
+## Feedback
+I'm not much of a gun nut, so feel free to inform me if there is anything wrong with any of the sounds. Maybe some do not sound realistic, or some sound wrong, anything that may bother you, except the sound volume :). Also feel free to inform me of sources where I can find realistic firearm sounds to broaden the list :D.
+
 ## Credits
 mc776\
 _bryan\
