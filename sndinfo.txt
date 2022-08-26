@@ -1,11 +1,30 @@
+weapons/akm/boltback	"sounds/akm/boltback.wav"
+weapons/akm/boltforward	"sounds/akm/boltforward.wav"
+weapons/akm/click	"sounds/akm/click.wav"
+weapons/akm/clipeject	"sounds/akm/clipeject.wav"
+weapons/akm/clipinsert	"sounds/akm/clipinsert.wav"
+
+$alias weapons/aks74u/boltback	weapons/akm/boltback
+$alias weapons/aks74u/boltforward	weapons/akm/boltforward
+$alias weapons/aks74u/click	weapons/akm/click
+$alias weapons/aks74u/clipeject	weapons/akm/clipeject
+$alias weapons/aks74u/clipinsert	weapons/akm/clipinsert
+
 $random weapons/fauxtech/fire	{misc/fauxtechfire1 misc/fauxtechfire2}
 misc/fauxtechfire1	"sounds/fauxtech/fire.wav"
 misc/fauxtechfire2	"sounds/fauxtech/fire2.wav"
+weapons/fauxtech/clipeject	"sounds/fauxtech/clipeject.wav"
+weapons/fauxtech/clipinsert	"sounds/fauxtech/clipinsert.wav"
 
+weapons/m107/click	"sounds/m107/click.wav"
+weapons/m107/clipeject	"sounds/m107/clipeject.wav"
+weapons/m107/clipinsert	"sounds/m107/clipinsert.wav"
 $random weapons/m107/fire	{misc/m107fire1 misc/m107fire2}
 misc/m107fire1	"sounds/m107/fire.wav"
 misc/m107fire2	"sounds/m107/fire2.wav"
 
+weapons/m249/click	    "weapons/m249/click.wav"
+weapons/m249/clipeject   "weapons/m249/clipeject.wav"
 $random weapons/m249/fire	{misc/m249fire1 misc/m249fire2}
 misc/m249fire1	"sounds/m249/fire.wav"
 misc/m249fire2	"sounds/m249/fire2.wav"
@@ -13,25 +32,32 @@ misc/m249fire2	"sounds/m249/fire2.wav"
 $random weapons/mp5/fire	{misc/mp5fire1 misc/mp5fire2}
 misc/mp5fire1	"sounds/mp5/fire.wav"
 misc/mp5fire2	"sounds/mp5/fire2.wav"
+weapons/mp5/click		"sounds/mp5/click.wav"
 
+weapons/uzi/click	"sounds/uzi/click.wav"
 weapons/uzi/clipeject	"sounds/uzi/clipeject.wav"
 weapons/uzi/clipinsert	"sounds/uzi/clipinsert.wav"
-weapons/uzi/click		"sounds/uzi/click.wav"
+
 
 $pitchset weapons/akm/fire 				0.99 1.1
 $pitchset weapons/aks74u/fire	 		0.99 1.1
 $pitchset weapons/fauxtech/fire 		0.99 1.1
-$pitchset weapons/glock/fire 			0.99 1.1
+$pitchset weapons/glock/fire 				0.99 1.1
 $pitchset weapons/m107/fire				0.99 1.1
 $pitchset weapons/m14/fire 				0.99 1.1
 $pitchset weapons/m249/fire				0.99 1.1
-$pitchset weapons/m4/fire				0.99 1.1
+$pitchset weapons/m4/fire					0.99 1.1
 $pitchset weapons/mp5/fire 				0.99 1.1
 $pitchset weapons/rpg/fire 				0.99 1.1
-$pitchset weapons/uzi/fire 				0.99 1.1
+$pitchset weapons/uzi/fire 					0.99 1.1
 
-$pitchset weapons/fauxtech/silentfire 	0.99 1.1
+$pitchset weapons/akm/silentfire 		0.99 1.1
+$pitchset weapons/aks74u/silentfire	0.99 1.1
+$pitchset weapons/fauxtech/silentfire	0.99 1.1
 $pitchset weapons/glock/silentfire 		0.99 1.1
+$pitchset weapons/m107/silentfire		0.99 1.1
 $pitchset weapons/m14/silentfire 		0.99 1.1
-$pitchset weapons/m4/silentfire 		0.99 1.1
+$pitchset weapons/m249/silentfire		0.99 1.1
+$pitchset weapons/m4/silentfire			0.99 1.1
 $pitchset weapons/mp5/silentfire 		0.99 1.1
+$pitchset weapons/uzi/silentfire 			0.99 1.1
