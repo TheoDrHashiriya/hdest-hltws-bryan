@@ -1,6 +1,10 @@
 # Hearing Loss Type Weapon Sounds: Bryan's HDest Weapons
 Hearing loss-inducing gunshots for [Bryan's HDest Weapons](https://codeberg.org/_bryan/hdest-weapons).\
-This mod is a smaller version of a larger private mod that is for the main game Hideous Destructor, thus the naming.\
+This mod is a smaller version of a larger private mod that is for the main game Hideous Destructor, thus the naming.
+
+## Features
+1. Unique gunshot and reload sounds
+2. Random pitch shifting for gunshots and reloads
 
 ## Installation
 1. Download the repo [here](https://github.com/TheoDrHashiriya/hdest-hltws-bryan/archive/refs/heads/main.zip).
