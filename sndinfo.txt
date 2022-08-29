@@ -1,63 +1,143 @@
-weapons/akm/boltback	"sounds/akm/boltback.wav"
-weapons/akm/boltforward	"sounds/akm/boltforward.wav"
-weapons/akm/click	"sounds/akm/click.wav"
-weapons/akm/clipeject	"sounds/akm/clipeject.wav"
-weapons/akm/clipinsert	"sounds/akm/clipinsert.wav"
+//// Reload & Fire Sounds
+weapons/akm/boltback				"sounds/akm/boltback.wav"
+weapons/akm/boltforward				"sounds/akm/boltforward.wav"
+weapons/akm/click					"sounds/akm/click.wav"
+weapons/akm/clipeject				"sounds/akm/clipeject.wav"
+weapons/akm/clipinsert				"sounds/akm/clipinsert.wav"
 
-$alias weapons/aks74u/boltback	weapons/akm/boltback
+$alias weapons/aks74u/boltback		weapons/akm/boltback
 $alias weapons/aks74u/boltforward	weapons/akm/boltforward
-$alias weapons/aks74u/click	weapons/akm/click
-$alias weapons/aks74u/clipeject	weapons/akm/clipeject
+$alias weapons/aks74u/click			weapons/akm/click
+$alias weapons/aks74u/clipeject		weapons/akm/clipeject
 $alias weapons/aks74u/clipinsert	weapons/akm/clipinsert
 
-$random weapons/fauxtech/fire	{misc/fauxtechfire1 misc/fauxtechfire2}
-misc/fauxtechfire1	"sounds/fauxtech/fire.wav"
-misc/fauxtechfire2	"sounds/fauxtech/fire2.wav"
-weapons/fauxtech/clipeject	"sounds/fauxtech/clipeject.wav"
-weapons/fauxtech/clipinsert	"sounds/fauxtech/clipinsert.wav"
+$random weapons/fauxtech/fire 		{misc/fauxtechfire1 misc/fauxtechfire2}
+misc/fauxtechfire1					"sounds/fauxtech/fire.wav"
+misc/fauxtechfire2					"sounds/fauxtech/fire2.wav"
+weapons/fauxtech/clipeject			"sounds/fauxtech/clipeject.wav"
+weapons/fauxtech/clipinsert			"sounds/fauxtech/clipinsert.wav"
 
-weapons/m107/click	"sounds/m107/click.wav"
-weapons/m107/clipeject	"sounds/m107/clipeject.wav"
-weapons/m107/clipinsert	"sounds/m107/clipinsert.wav"
-$random weapons/m107/fire	{misc/m107fire1 misc/m107fire2}
-misc/m107fire1	"sounds/m107/fire.wav"
-misc/m107fire2	"sounds/m107/fire2.wav"
+weapons/m107/click					"sounds/m107/click.wav"
+weapons/m107/clipeject				"sounds/m107/clipeject.wav"
+weapons/m107/clipinsert				"sounds/m107/clipinsert.wav"
+$random weapons/m107/fire 			{misc/m107fire1 misc/m107fire2}
+misc/m107fire1						"sounds/m107/fire.wav"
+misc/m107fire2						"sounds/m107/fire2.wav"
 
-weapons/m249/click	    "weapons/m249/click.wav"
-weapons/m249/clipeject   "weapons/m249/clipeject.wav"
-$random weapons/m249/fire	{misc/m249fire1 misc/m249fire2}
-misc/m249fire1	"sounds/m249/fire.wav"
-misc/m249fire2	"sounds/m249/fire2.wav"
+weapons/m249/click					"weapons/m249/click.wav"
+weapons/m249/clipeject				"weapons/m249/clipeject.wav"
+$random weapons/m249/fire 			{misc/m249fire1 misc/m249fire2}
+misc/m249fire1						"sounds/m249/fire.wav"
+misc/m249fire2						"sounds/m249/fire2.wav"
 
-$random weapons/mp5/fire	{misc/mp5fire1 misc/mp5fire2}
-misc/mp5fire1	"sounds/mp5/fire.wav"
-misc/mp5fire2	"sounds/mp5/fire2.wav"
-weapons/mp5/click		"sounds/mp5/click.wav"
+$random weapons/mp5/fire			{misc/mp5fire1 misc/mp5fire2}
+misc/mp5fire1						"sounds/mp5/fire.wav"
+misc/mp5fire2						"sounds/mp5/fire2.wav"
+weapons/mp5/click					"sounds/mp5/click.wav"
 
-weapons/uzi/click	"sounds/uzi/click.wav"
-weapons/uzi/clipeject	"sounds/uzi/clipeject.wav"
-weapons/uzi/clipinsert	"sounds/uzi/clipinsert.wav"
+weapons/uzi/boltback				"sounds/uzi/boltback.wav"
+weapons/uzi/boltforward				"sounds/uzi/boltforward.wav"
+weapons/uzi/click					"sounds/uzi/click.wav"
+weapons/uzi/clipeject				"sounds/uzi/clipeject.wav"
+weapons/uzi/clipinsert				"sounds/uzi/clipinsert.wav"
 
 
-$pitchset weapons/akm/fire 				0.99 1.1
-$pitchset weapons/aks74u/fire	 		0.99 1.1
-$pitchset weapons/fauxtech/fire 		0.99 1.1
-$pitchset weapons/glock/fire 				0.99 1.1
-$pitchset weapons/m107/fire				0.99 1.1
-$pitchset weapons/m14/fire 				0.99 1.1
-$pitchset weapons/m249/fire				0.99 1.1
-$pitchset weapons/m4/fire					0.99 1.1
-$pitchset weapons/mp5/fire 				0.99 1.1
-$pitchset weapons/rpg/fire 				0.99 1.1
-$pitchset weapons/uzi/fire 					0.99 1.1
+//// Random Pitches
+// Gunshots
+$pitchset weapons/akm/fire				0.95 1.11
+$pitchset weapons/aks74u/fire			0.95 1.11
+$pitchset weapons/fauxtech/fire			0.95 1.11
+$pitchset weapons/glock/fire			0.95 1.11
+$pitchset weapons/m107/fire				0.95 1.11
+$pitchset weapons/m14/fire				0.95 1.11
+$pitchset weapons/m249/fire				0.95 1.11
+$pitchset weapons/m4/fire				0.95 1.11
+$pitchset weapons/mp5/fire				0.95 1.11
+$pitchset weapons/rpg/fire				0.95 1.11
+$pitchset weapons/uzi/fire				0.95 1.11
 
-$pitchset weapons/akm/silentfire 		0.99 1.1
-$pitchset weapons/aks74u/silentfire	0.99 1.1
-$pitchset weapons/fauxtech/silentfire	0.99 1.1
-$pitchset weapons/glock/silentfire 		0.99 1.1
-$pitchset weapons/m107/silentfire		0.99 1.1
-$pitchset weapons/m14/silentfire 		0.99 1.1
-$pitchset weapons/m249/silentfire		0.99 1.1
-$pitchset weapons/m4/silentfire			0.99 1.1
-$pitchset weapons/mp5/silentfire 		0.99 1.1
-$pitchset weapons/uzi/silentfire 			0.99 1.1
+// Suppressed Gunshots
+$pitchset weapons/akm/silentfire		0.95 1.11
+$pitchset weapons/aks74u/silentfire		0.95 1.11
+$pitchset weapons/fauxtech/silentfire	0.95 1.11
+$pitchset weapons/glock/silentfire		0.95 1.11
+$pitchset weapons/m107/silentfire		0.95 1.11
+$pitchset weapons/m14/silentfire		0.95 1.11
+$pitchset weapons/m249/silentfire		0.95 1.11
+$pitchset weapons/m4/silentfire			0.95 1.11
+$pitchset weapons/mp5/silentfire		0.95 1.11
+$pitchset weapons/uzi/silentfire		0.95 1.11
+
+// Reloads
+$pitchset weapons/akm/boltback			0.88 1.11
+$pitchset weapons/akm/boltforward		0.88 1.11
+$pitchset weapons/akm/chamber			0.88 1.11
+$pitchset weapons/akm/click				0.88 1.11
+$pitchset weapons/akm/clipeject			0.88 1.11
+$pitchset weapons/akm/clipinsert		0.88 1.11
+
+$pitchset weapons/aks74u/boltback		0.88 1.11
+$pitchset weapons/aks74u/boltforward	0.88 1.11
+$pitchset weapons/aks74u/chamber		0.88 1.11
+$pitchset weapons/aks74u/click			0.88 1.11
+$pitchset weapons/aks74u/clipeject		0.88 1.11
+$pitchset weapons/aks74u/clipinsert		0.88 1.11
+
+$pitchset weapons/fauxtech/boltback		0.88 1.11
+$pitchset weapons/fauxtech/boltforward	0.88 1.11
+$pitchset weapons/fauxtech/click		0.88 1.11
+$pitchset weapons/fauxtech/clipeject	0.88 1.11
+$pitchset weapons/fauxtech/clipinsert	0.88 1.11
+
+$pitchset weapons/glock/boltback		0.88 1.11
+$pitchset weapons/glock/boltforward		0.88 1.11
+$pitchset weapons/glock/click			0.88 1.11
+$pitchset weapons/glock/clipeject		0.88 1.11
+$pitchset weapons/glock/clipinsert      0.88 1.11
+
+$pitchset weapons/m107/boltback			0.88 1.11
+$pitchset weapons/m107/boltforward		0.88 1.11
+$pitchset weapons/m107/chamber			0.88 1.11
+$pitchset weapons/m107/click			0.88 1.11
+$pitchset weapons/m107/clipeject		0.88 1.11
+$pitchset weapons/m107/clipinsert		0.88 1.11
+
+$pitchset weapons/m14/boltback			0.88 1.11
+$pitchset weapons/m14/boltforward		0.88 1.11
+$pitchset weapons/m14/click				0.88 1.11
+$pitchset weapons/m14/clipeject			0.88 1.11
+$pitchset weapons/m14/clipinsert		0.88 1.11
+
+$pitchset weapons/m249/boltback			0.88 1.11
+$pitchset weapons/m249/boltforward		0.88 1.11
+$pitchset weapons/m249/chamber			0.88 1.11
+$pitchset weapons/m249/click			0.88 1.11
+$pitchset weapons/m249/clipeject		0.88 1.11
+$pitchset weapons/m249/loading			0.88 1.11
+
+$pitchset weapons/m4/boltback			0.88 1.11
+$pitchset weapons/m4/boltforward		0.88 1.11
+$pitchset weapons/m4/click				0.88 1.11
+$pitchset weapons/m4/clipeject			0.88 1.11
+$pitchset weapons/m4/clipinsert			0.88 1.11
+
+$pitchset weapons/mp5/boltback			0.88 1.11
+$pitchset weapons/mp5/boltforward		0.88 1.11
+$pitchset weapons/mp5/click				0.88 1.11
+$pitchset weapons/mp5/clipeject			0.88 1.11
+$pitchset weapons/mp5/clipinsert		0.88 1.11
+
+$pitchset weapons/rpg/boltback			0.88 1.11
+$pitchset weapons/rpg/boltforward		0.88 1.11
+$pitchset weapons/rpg/chamber			0.88 1.11
+$pitchset weapons/rpg/click				0.88 1.11
+$pitchset weapons/rpg/clipeject			0.88 1.11
+$pitchset weapons/rpg/clipinsert		0.88 1.11
+$pitchset weapons/rpg/whoosh			0.88 1.11
+
+$pitchset weapons/uzi/boltback			0.88 1.11
+$pitchset weapons/uzi/boltforward		0.88 1.11
+$pitchset weapons/uzi/chamber			0.88 1.11
+$pitchset weapons/uzi/click				0.88 1.11
+$pitchset weapons/uzi/clipeject			0.88 1.11
+$pitchset weapons/uzi/clipinsert		0.88 1.11
